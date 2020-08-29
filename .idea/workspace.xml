@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JSP_Study:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4f404b8-1d32-41f6-b330-8300d50faa51" name="Default Changelist" comment="">
+    <list default="true" id="acc48fc1-e3b9-4c7e-929b-232fa8ddd5e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JSP_Study_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JAX_WS_Apache_Axis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSP_Study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JSP_Study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +24,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1gjMRqOghJfPOtQwjLP82DdFttQ" />
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1gkl1d4d1UaTgdxZiQhCHVsffMT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,15 +42,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
+    <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="JSP_Study:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_JSP_Study" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_37_JSP_Study_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -36,7 +66,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50628" />
+        <option name="DEBUG_PORT" value="50753" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -85,6 +115,9 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JSP_Study:war exploded" />
+        </option>
       </method>
     </configuration>
   </component>
@@ -93,14 +126,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d4f404b8-1d32-41f6-b330-8300d50faa51" name="Default Changelist" comment="" />
-      <created>1598623543745</created>
+      <changelist id="acc48fc1-e3b9-4c7e-929b-232fa8ddd5e4" name="Default Changelist" comment="" />
+      <created>1598666257407</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598623543745</updated>
-      <workItem from="1598623567585" duration="15000" />
-      <workItem from="1598657894134" duration="71000" />
-      <workItem from="1598665902453" duration="85000" />
+      <updated>1598666257407</updated>
+      <workItem from="1598666285429" duration="501000" />
+      <workItem from="1598666907089" duration="194000" />
     </task>
     <servers />
   </component>
@@ -108,9 +140,65 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598665985658">
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598666955113">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1598665985658" />
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1598666955113" />
+    <state x="440" y="25" key="CommitChangelistDialog2" timestamp="1598667087808">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state x="440" y="25" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1598667087808" />
+    <state width="780" height="204" key="GridCell.Tab.0.bottom" timestamp="1598667105518">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.0.bottom/0.25.1440.804@0.25.1440.804" timestamp="1598667105518" />
+    <state width="780" height="204" key="GridCell.Tab.0.center" timestamp="1598667105517">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.0.center/0.25.1440.804@0.25.1440.804" timestamp="1598667105517" />
+    <state width="780" height="204" key="GridCell.Tab.0.left" timestamp="1598667105515">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.0.left/0.25.1440.804@0.25.1440.804" timestamp="1598667105515" />
+    <state width="780" height="204" key="GridCell.Tab.0.right" timestamp="1598667105517">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1598667105517" />
+    <state width="780" height="204" key="GridCell.Tab.1.bottom" timestamp="1598667105521">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.1.bottom/0.25.1440.804@0.25.1440.804" timestamp="1598667105521" />
+    <state width="780" height="204" key="GridCell.Tab.1.center" timestamp="1598667105520">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.1.center/0.25.1440.804@0.25.1440.804" timestamp="1598667105520" />
+    <state width="780" height="204" key="GridCell.Tab.1.left" timestamp="1598667105519">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.1.left/0.25.1440.804@0.25.1440.804" timestamp="1598667105519" />
+    <state width="780" height="204" key="GridCell.Tab.1.right" timestamp="1598667105520">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.1.right/0.25.1440.804@0.25.1440.804" timestamp="1598667105520" />
+    <state width="780" height="204" key="GridCell.Tab.2.bottom" timestamp="1598667105525">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.2.bottom/0.25.1440.804@0.25.1440.804" timestamp="1598667105525" />
+    <state width="780" height="204" key="GridCell.Tab.2.center" timestamp="1598667105523">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.2.center/0.25.1440.804@0.25.1440.804" timestamp="1598667105523" />
+    <state width="780" height="204" key="GridCell.Tab.2.left" timestamp="1598667105522">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.2.left/0.25.1440.804@0.25.1440.804" timestamp="1598667105522" />
+    <state width="780" height="204" key="GridCell.Tab.2.right" timestamp="1598667105524">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state width="780" height="204" key="GridCell.Tab.2.right/0.25.1440.804@0.25.1440.804" timestamp="1598667105524" />
+    <state x="643" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598667037968">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state x="643" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.804@0.25.1440.804" timestamp="1598667037968" />
   </component>
 </project>
