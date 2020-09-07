@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 import java.util.Enumeration;
 
 @WebServlet("/headerInfo")
-public class HeaderinfoServlet extends HttpServlet {
+public class HeaderInfoServlet extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=EUC-KR");
         PrintWriter out = resp.getWriter();
