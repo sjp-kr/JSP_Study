@@ -6,10 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acc48fc1-e3b9-4c7e-929b-232fa8ddd5e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Study_war_exploded/name.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Study_war_exploded/name.html" afterDir="false" />
-    </list>
+    <list default="true" id="acc48fc1-e3b9-4c7e-929b-232fa8ddd5e4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +171,7 @@
       <updated>1598666257407</updated>
       <workItem from="1598666285429" duration="501000" />
       <workItem from="1598666907089" duration="194000" />
-      <workItem from="1599439704789" duration="11681000" />
+      <workItem from="1599439704789" duration="11855000" />
     </task>
     <servers />
   </component>
